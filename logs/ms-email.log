@@ -1,0 +1,41 @@
+2023-02-14T01:31:32,777 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2023-02-14T01:31:32,846 INFO  com.ms.sendemailservice.SendEmailServiceApplication - Starting SendEmailServiceApplication using Java 17 on DESKTOP-OMKIA20 with PID 4276 (C:\Users\gusta\OneDrive\Área de Trabalho\ESTUDOS\send-email-service-rabbitMQ\target\classes started by gusta in c:\Users\gusta\OneDrive\Área de Trabalho\ESTUDOS\send-email-service-rabbitMQ)
+2023-02-14T01:31:32,853 DEBUG com.ms.sendemailservice.SendEmailServiceApplication - Running with Spring Boot v2.7.8, Spring v5.3.25
+2023-02-14T01:31:32,854 INFO  com.ms.sendemailservice.SendEmailServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-02-14T01:31:33,939 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-14T01:31:34,022 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-02-14T01:31:34,901 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-14T01:31:34,931 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-14T01:31:34,932 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-14T01:31:34,933 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-14T01:31:35,094 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-02-14T01:31:35,095 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2152 ms
+2023-02-14T01:31:35,270 INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-14T01:31:35,337 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-14T01:31:35,546 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-14T01:31:35,697 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-02-14T01:31:35,862 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-02-14T01:31:35,904 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-02-14T01:31:37,216 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-14T01:31:37,253 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-14T01:31:37,770 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-14T01:31:38,619 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-14T01:31:38,659 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-14T01:31:38,663 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [rat.rmq2.cloudamqp.com:5671]
+2023-02-14T01:31:40,412 INFO  org.springframework.amqp.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1b3a95d9:0/SimpleConnection@5f1c406e [delegate=amqp://ivlayeyp@35.180.222.149:5671/ivlayeyp, localPort= 56424]
+2023-02-14T01:31:41,897 INFO  com.ms.sendemailservice.SendEmailServiceApplication - Started SendEmailServiceApplication in 9.748 seconds (JVM running for 10.713)
+2023-02-14T01:33:39,878 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-14T01:33:39,879 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-14T01:33:39,881 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-02-14T01:33:39,932 TRACE com.ms.sendemailservice.controllers.EmailController - TRACE
+2023-02-14T01:33:39,932 DEBUG com.ms.sendemailservice.controllers.EmailController - DEBUG
+2023-02-14T01:33:39,933 INFO  com.ms.sendemailservice.controllers.EmailController - INFO
+2023-02-14T01:33:39,933 WARN  com.ms.sendemailservice.controllers.EmailController - WARN
+2023-02-14T01:33:39,934 ERROR com.ms.sendemailservice.controllers.EmailController - ERROR
+2023-02-14T01:33:39,934 FATAL com.ms.sendemailservice.controllers.EmailController - FATAL
+2023-02-14T01:34:26,120 TRACE com.ms.sendemailservice.controllers.EmailController - TRACE
+2023-02-14T01:34:26,121 DEBUG com.ms.sendemailservice.controllers.EmailController - DEBUG
+2023-02-14T01:34:26,121 INFO  com.ms.sendemailservice.controllers.EmailController - INFO
+2023-02-14T01:34:26,122 WARN  com.ms.sendemailservice.controllers.EmailController - WARN
+2023-02-14T01:34:26,122 ERROR com.ms.sendemailservice.controllers.EmailController - ERROR
+2023-02-14T01:34:26,123 FATAL com.ms.sendemailservice.controllers.EmailController - FATAL
